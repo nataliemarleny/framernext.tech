@@ -14,12 +14,20 @@ import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 import FramerIcon from "../components/FramerIcon";
 import CodeSandboxIcon from "../components/CodeSandboxIcon";
-import CSSImage from "../svg/css.svg";
+import AnimateArrays from "../svg/AnimateArrays.svg";
+import AnimateColor from "../svg/AnimateColor.svg";
+import AnimateCycle from "../svg/AnimateCycle.svg";
+import AnimateGestures from "../svg/AnimateGestures.svg";
+import AnimateLoop from "../svg/AnimateLoop.svg";
+import Animation from "../svg/Animation.svg";
+import DraggingConstraints from "../svg/DraggingConstraints.svg";
+import Frame from "../svg/Frame.svg";
+import OnHover from "../svg/OnHover.svg";
+import Paging from "../svg/Paging.svg";
+import Scrolling from "../svg/Scrolling.svg";
 import Stack from "../svg/stack.svg";
-import PresentationsImage from "../svg/presentations.svg";
-import OcticonsImage from "../svg/octicons.svg";
-import GuidelinesImage from "../svg/guidelines.svg";
-import FigmaImage from "../svg/figma.svg";
+import Transforms from "../svg/Transforms.svg";
+import Variants from "../svg/Variants.svg";
 
 const gutter = 6;
 
@@ -40,7 +48,7 @@ export default function Index(props) {
           <Flex flexWrap="wrap" mr={[0, 0, -gutter]}>
             <Promo
               title="Frame"
-              image={CSSImage}
+              image={Frame}
               codesandboxid={"62km0298rk"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Frame"
               api="https://www.framer.com/api/examples/#frame"
@@ -59,7 +67,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Animation"
-              image={OcticonsImage}
+              image={Animation}
               codesandboxid={"ykppk6k3wv"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Animate"
               api="https://www.framer.com/api/examples/#animate"
@@ -69,7 +77,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Animate/Loop"
-              image={PresentationsImage}
+              image={AnimateLoop}
               codesandboxid={"wqz8n1wk05"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Loop"
               api="https://www.framer.com/api/examples/#loop"
@@ -79,7 +87,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Animate/Cycle"
-              image={GuidelinesImage}
+              image={AnimateCycle}
               codesandboxid={"xl7nmv46wq"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Cycle"
               api="https://www.framer.com/api/examples/#cycle"
@@ -89,7 +97,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Animate/Color"
-              image={FigmaImage}
+              image={AnimateColor}
               codesandboxid={"vv8ll0pmk7"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Color"
               api="https://www.framer.com/api/examples/#color"
@@ -99,7 +107,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Animate/Arrays"
-              image={CSSImage}
+              image={AnimateArrays}
               codesandboxid={"o4j24j2zmq"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Arrays"
               api="https://www.framer.com/api/examples/#arrays"
@@ -109,7 +117,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Gestures"
-              image={Stack}
+              image={AnimateGestures}
               codesandboxid={"jlq97yryk9"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Gestures"
               api="https://www.framer.com/api/examples/#gestures"
@@ -119,7 +127,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="On Hover"
-              image={OcticonsImage}
+              image={OnHover}
               codesandboxid={"8zoqqj2x2j"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Hover"
               api="https://www.framer.com/api/examples/#on-hover"
@@ -129,7 +137,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Dragging/Constraints"
-              image={PresentationsImage}
+              image={DraggingConstraints}
               codesandboxid={"53mv19r5r4"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Constraints"
               api="https://www.framer.com/api/examples/#constraints"
@@ -138,7 +146,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Scrolling"
-              image={GuidelinesImage}
+              image={Scrolling}
               codesandboxid={"zqk53xj9k3"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Scrolling"
               api="https://www.framer.com/api/examples/#scrolling"
@@ -148,7 +156,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Paging"
-              image={FigmaImage}
+              image={Paging}
               codesandboxid={"88j3049zr9"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Paging"
               api="https://www.framer.com/api/examples/#paging"
@@ -158,7 +166,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Transforms"
-              image={PresentationsImage}
+              image={Transforms}
               codesandboxid={"l0061n7v7"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Transforms"
               api="https://www.framer.com/api/examples/#transforms"
@@ -168,7 +176,7 @@ export default function Index(props) {
             </Promo>
             <Promo
               title="Variants"
-              image={GuidelinesImage}
+              image={Variants}
               codesandboxid={"98vm5qo84"}
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Variants"
               api="https://www.framer.com/api/examples/#variants"
