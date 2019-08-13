@@ -25,7 +25,7 @@ import Frame from "../svg/Frame.svg";
 import OnHover from "../svg/OnHover.svg";
 import Paging from "../svg/Paging.svg";
 import Scrolling from "../svg/Scrolling.svg";
-import Stack from "../svg/stack.svg";
+import Stack from "../svg/Stack.svg";
 import Transforms from "../svg/Transforms.svg";
 import Variants from "../svg/Variants.svg";
 
