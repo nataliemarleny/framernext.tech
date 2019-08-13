@@ -21,11 +21,11 @@ export default function OpenSource() {
           </Heading>
           <LinkDark pt={1} fontSize={2} mb={3} display="block" href="https://www.framer.com/loupe/">
             <StyledOcticon icon={Heart} size={20} verticalAlign="top" mr={2} />
-            Created as part of Framer Loupe 2019
+            For Framer Loupe 2019
           </LinkDark>
           <LinkDark pt={1} fontSize={2} mb={3} display="block" href="https://www.framer.com/api">
             <StyledOcticon icon={FramerIcon} size={20} verticalAlign="top" mr={2} />
-            Examples built using the Framer X API
+            Using the Framer X API
           </LinkDark>
           <LinkDark fontSize={2} mb={3} display="block" href="https://nextjs.org">
             <StyledOcticon icon={NextjsIcon} size={20} verticalAlign="top" mr={2} />
@@ -33,10 +33,10 @@ export default function OpenSource() {
           </LinkDark>
           <LinkDark fontSize={2} mb={3} display="block" href="https://codesandbox.io">
             <StyledOcticon icon={CodeSandboxIcon} size={20} verticalAlign="top" mr={2} />
-            CodeSandbox.io for hosting environments
+            CodeSandbox.io environments
           </LinkDark>
           <LinkDark fontSize={2} mb={3} display="block" href="https://github.com">
-            <StyledOcticon icon={Octoface} size={20} verticalAlign="text-top" mr={2} /> GitHub repository code imports
+            <StyledOcticon icon={Octoface} size={20} verticalAlign="text-top" mr={2} /> GitHub code imports
           </LinkDark>
           <LinkDark fontSize={2} mb={3} display="block" href="https://zeit.co">
             <StyledOcticon icon={ZEITIcon} size={20} verticalAlign="top" mr={2} />
@@ -44,7 +44,7 @@ export default function OpenSource() {
           </LinkDark>
           <ButtonFillDark mt={5} mb={3} mr={2} href="https://github.com/nataliemarleny/framernext.tech">
             <StyledOcticon icon={MarkGithub} size={20} verticalAlign="text-bottom" mr={2} />
-            View the framernext.tech repository
+            framernext.tech repo
           </ButtonFillDark>
         </IndexGrid.Item>
         <IndexGrid.Item>
@@ -53,7 +53,7 @@ export default function OpenSource() {
           </Heading>
           <LinkDark pt={1} fontSize={2} mb={3} display="block" href="https://nataliemarleny.com">
             <StyledOcticon icon={Star} size={20} verticalAlign="top" mr={2} />
-            Site and examples by Natalie Marleny
+            By Natalie Marleny
           </LinkDark>
           <LinkDark pt={1} fontSize={2} mb={3} display="block" href="https://twitter.com/nataliemarleny">
             <StyledOcticon icon={TwitterIcon} size={20} verticalAlign="top" mr={2} />
