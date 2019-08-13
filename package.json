@@ -1,5 +1,6 @@
 {
   "private": true,
+  "author": "natalie marleny",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",

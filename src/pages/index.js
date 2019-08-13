@@ -21,11 +21,12 @@ export default function Index(props) {
       <Box bg="white" color="black" px={4} py={12}>
         <Box className="container-xl" px={2}>
           <Heading fontSize={6} textAlign="center" lineHeight={1}>
-            Framer Next.js
+            Framer Next
           </Heading>
           <Text as="p" textAlign="center" mb={8}>
-            A technical showcase of the Framer API Examples implemented with Next.js. Each picture links to a
-            CodeSandbox.
+            A technical showcase of the Framer API Examples implemented with Next.js. Each thumbnail links to a
+            CodeSandbox which hosts the Framer API example hosted using Next.js. For comparison, see original example
+            CodeSandboxes.
           </Text>
           <Flex flexWrap="wrap" mr={[0, 0, -gutter]}>
             <Promo

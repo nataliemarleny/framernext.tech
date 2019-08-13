@@ -3,7 +3,7 @@ const {author} = require('./package.json')
 
 module.exports = {
   siteMetadata: {
-    title: 'Primer Design System',
+    title: 'Framer Next',
     author
   },
   plugins: [
