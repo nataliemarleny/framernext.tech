@@ -18,6 +18,9 @@
 </p>
 
 ---
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nataliemarleny/framernext.tech.svg)](https://greenkeeper.io/)
+
   
 #### Up-coming work & contributing
   
