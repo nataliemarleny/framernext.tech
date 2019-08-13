@@ -5,8 +5,8 @@ import {space} from 'styled-system'
 import styled from 'styled-components'
 
 const ButtonOutline = styled(Link)`
-  color: ${themeGet('colors.blue.3')} !important;
-  border-color: ${themeGet('colors.blue.3')};
+  color: ${themeGet('colors.gray.4')} !important;
+  border-color: ${themeGet('colors.gray.4')};
   border-width: 1px;
   border-style: solid;
   padding: 0.75em 1.25em;
@@ -16,8 +16,8 @@ const ButtonOutline = styled(Link)`
   font-weight: 600;
   display: inline-block;
   &:hover {
-    color: ${themeGet('colors.blue.4')} !important;
-    border-color: ${themeGet('colors.blue.4')};
+    color: ${themeGet('colors.gray.5')} !important;
+    border-color: ${themeGet('colors.gray.5')};
     text-decoration: none;
   }
   ${space};

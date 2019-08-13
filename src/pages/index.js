@@ -18,13 +18,14 @@ const gutter = 6
 export default function Index(props) {
   return (
     <Layout {...props}>
-      <Box bg="blue.1" color="black" px={4} py={12}>
+      <Box bg="white" color="black" px={4} py={12}>
         <Box className="container-xl" px={2}>
           <Heading fontSize={6} textAlign="center" lineHeight={1}>
             Framer Next.js
           </Heading>
           <Text as="p" textAlign="center" mb={8}>
-            A technical showcase of the Framer API Examples implemented with Next.js
+            A technical showcase of the Framer API Examples implemented with Next.js. Each picture links to a
+            CodeSandbox.
           </Text>
           <Flex flexWrap="wrap" mr={[0, 0, -gutter]}>
             <Promo
@@ -182,11 +183,11 @@ const Promo = ({title, codesandboxid, href, api, image: Image = 'div', children,
     </Text>
     <ButtonOutline mb={3} href={api}>
       <StyledOcticon icon={FramerIcon} size={20} verticalAlign="text-bottom" mr={2} />
-      {title} API Documentation
+      {title} API Docs
     </ButtonOutline>
     <ButtonPromo mb={3} href={`https://codesandbox.io/s/${codesandboxid}`}>
       <StyledOcticon icon={CodeSandboxIcon} size={20} verticalAlign="text-bottom" mr={2} />
-      {title} Original CodeSandbox
+      Original CodeSandbox
     </ButtonPromo>
   </Box>
 )

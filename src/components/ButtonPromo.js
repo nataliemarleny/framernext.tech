@@ -5,8 +5,8 @@ import {space} from 'styled-system'
 import styled from 'styled-components'
 
 const ButtonPromo = styled(Link)`
-  color: ${themeGet('colors.orange.3')} !important;
-  border-color: ${themeGet('colors.orange.3')};
+  color: ${themeGet('colors.gray.4')} !important;
+  border-color: ${themeGet('colors.gray.4')};
   border-width: 1px;
   border-style: solid;
   padding: 0.75em 1.25em;
@@ -17,8 +17,8 @@ const ButtonPromo = styled(Link)`
   display: inline-block;
   &:hover {
     color: ${themeGet('colors.black')} !important;
-    background-color: ${themeGet('colors.orange.4')} !important;
-    border-color: ${themeGet('colors.orange.4')};
+    background-color: ${themeGet('colors.gray.3')} !important;
+    border-color: ${themeGet('colors.gray.3')};
     text-decoration: none;
   }
   ${space};

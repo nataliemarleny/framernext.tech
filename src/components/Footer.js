@@ -13,7 +13,7 @@ import ZEITIcon from './ZEITIcon'
 
 export default function OpenSource() {
   return (
-    <Box bg="blue.2" pt={12}>
+    <Box bg="gray.2" pt={12}>
       <IndexGrid alignItems="start">
         <IndexGrid.Item mb={3}>
           <Heading color="black" mb={3} fontSize={7} fontWeight="bold">
@@ -40,7 +40,7 @@ export default function OpenSource() {
           </LinkDark>
           <LinkDark fontSize={2} mb={3} display="block" href="https://zeit.co">
             <StyledOcticon icon={ZEITIcon} size={20} verticalAlign="top" mr={2} />
-          ZEIT Now for deploying framernext.tech
+            ZEIT Now for deploying framernext.tech
           </LinkDark>
           <ButtonFillDark mt={5} mb={3} mr={2} href="https://github.com/nataliemarleny/framernext.tech">
             <StyledOcticon icon={MarkGithub} size={20} verticalAlign="text-bottom" mr={2} />

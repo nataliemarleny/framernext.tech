@@ -5,7 +5,7 @@ import {space} from 'styled-system'
 import styled from 'styled-components'
 
 const ButtonFillDark = styled(Link)`
-  color: ${themeGet('colors.blue.2')} !important;
+  color: ${themeGet('colors.gray.2')} !important;
   background-color: ${themeGet('colors.black')};
   padding: 0.75em 1.25em;
   font-size: ${props => props.theme.fontSizes[2]};
