@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = withReactSvg(withSass({
   include: path.join(__dirname, 'svg'),
   experimental: {
-    // modern: true,
-    // granularChunks: true
+    modern: true,
+    granularChunks: true
   }
 }))

@@ -11,12 +11,12 @@ Object.assign(Heading.defaultProps, {
 })
 
 export default function Layout(props) {
-  const {children, title, pageContext = {}, ...rest} = props
+  const {children, pageContext = {}, ...rest} = props
 
   return (
     <>
       <Head>
-        <title>Test</title>
+        <title>Framer Next</title>
         <meta name="keywords" content="Framer Next" />
         <meta property="og:article:author" content="Natalie Marleny" />
         <meta property="og:title" content="Framer Next" />

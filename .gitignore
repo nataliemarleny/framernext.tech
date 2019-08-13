@@ -1,5 +1,4 @@
 *.log
-.cache/
+.next
 .DS_Store
-public/
 node_modules/
