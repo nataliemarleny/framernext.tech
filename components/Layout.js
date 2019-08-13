@@ -1,6 +1,5 @@
 import React from 'react'
-import {Helmet} from 'react-helmet'
-import {useStaticQuery, graphql} from 'gatsby'
+import Head from 'next/head'
 import {Box, Heading} from '@primer/components'
 import '@primer/css/layout/index.scss'
 
@@ -12,32 +11,12 @@ Object.assign(Heading.defaultProps, {
 })
 
 export default function Layout(props) {
-  const {children, title, pageContext = {}, ...rest} = props
-
-  const {
-    site: {siteMetadata}
-  } = useStaticQuery(graphql`
-    query Layout {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  let pageTitle = title
-  if (pageContext.frontmatter && !pageTitle) {
-    pageTitle = pageContext.frontmatter.title
-  }
+  const {children, pageContext = {}, ...rest} = props
 
   return (
     <>
-      <Helmet>
-        <title>
-          {pageTitle ? `${pageTitle} • ` : ''}
-          {siteMetadata.title}
-        </title>
+      <Head>
+        <title>Framer Next</title>
         <meta name="keywords" content="Framer Next" />
         <meta property="og:article:author" content="Natalie Marleny" />
         <meta property="og:title" content="Framer Next" />
@@ -53,7 +32,7 @@ export default function Layout(props) {
         <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@nataliemarleny" />
-      </Helmet>
+      </Head>
       <Box bg="black" color="blue.2" {...rest}>
         {children}
       </Box>
