@@ -6,12 +6,12 @@ import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import FramerIcon from '../components/FramerIcon'
 import CodeSandboxIcon from '../components/CodeSandboxIcon'
-import {ReactComponent as CSSImage} from '../svg/css.svg'
-import {ReactComponent as ComponentsImage} from '../svg/components.svg'
-import {ReactComponent as PresentationsImage} from '../svg/presentations.svg'
-import {ReactComponent as OcticonsImage} from '../svg/octicons.svg'
-import {ReactComponent as GuidelinesImage} from '../svg/guidelines.svg'
-import {ReactComponent as FigmaImage} from '../svg/figma.svg'
+import CSSImage from '../svg/css.svg'
+import ComponentsImage from '../svg/components.svg'
+import PresentationsImage from '../svg/presentations.svg'
+import OcticonsImage from '../svg/octicons.svg'
+import GuidelinesImage from '../svg/guidelines.svg'
+import FigmaImage from '../svg/figma.svg'
 
 const gutter = 6
 
