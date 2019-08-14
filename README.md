@@ -1,10 +1,10 @@
+<a href="https://framernext.tech">
 <p align="center">
   <img width="300px" src="FramerNext.png">
 </p>
 
-<p align="center">
   <h1 align="center">Framer NeXt.js</h1>
-
+</a>
   <p align="center">
     Supplementary:
     <a href="https://github.com/nataliemarleny/framernext-examples">Framer API implemented in Next.js Examples Repository</a>
