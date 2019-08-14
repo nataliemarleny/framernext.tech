@@ -230,7 +230,7 @@ const Promo = ({
     <Text as="p" my={0} mb={6}>
       {children}
     </Text>
-    <ButtonOutline mb={3} href={api}>
+    <ButtonOutline mb={3} mr={3} href={api}>
       <StyledOcticon
         icon={FramerIcon}
         size={20}
