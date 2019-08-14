@@ -49,6 +49,7 @@ export default function Index(props) {
               title="Frame"
               image={Frame}
               codesandboxid={"62km0298rk"}
+              ariaLabel=`CodeSandbox hosted environment for the Frame API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Frame"
               api="https://www.framer.com/api/examples/#frame"
             >
@@ -58,6 +59,7 @@ export default function Index(props) {
               title="Stack"
               image={Stack}
               codesandboxid={"o9y86o898q"}
+              ariaLabel=`CodeSandbox hosted environment for the Stack API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Stack"
               api="https://www.framer.com/api/examples/#stack"
             >
@@ -68,6 +70,7 @@ export default function Index(props) {
               title="Animation"
               image={Animation}
               codesandboxid={"ykppk6k3wv"}
+              ariaLabel=`CodeSandbox hosted environment for the Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Animate"
               api="https://www.framer.com/api/examples/#animate"
             >
@@ -78,6 +81,7 @@ export default function Index(props) {
               title="Animate/Loop"
               image={AnimateLoop}
               codesandboxid={"wqz8n1wk05"}
+              ariaLabel=`CodeSandbox hosted environment for the Loop Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Loop"
               api="https://www.framer.com/api/examples/#loop"
             >
@@ -88,6 +92,7 @@ export default function Index(props) {
               title="Animate/Cycle"
               image={AnimateCycle}
               codesandboxid={"xl7nmv46wq"}
+              ariaLabel=`CodeSandbox hosted environment for the Cycle Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Cycle"
               api="https://www.framer.com/api/examples/#cycle"
             >
@@ -98,6 +103,7 @@ export default function Index(props) {
               title="Animate/Color"
               image={AnimateColor}
               codesandboxid={"vv8ll0pmk7"}
+              ariaLabel=`CodeSandbox hosted environment for the Color Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Color"
               api="https://www.framer.com/api/examples/#color"
             >
@@ -108,6 +114,7 @@ export default function Index(props) {
               title="Animate/Arrays"
               image={AnimateArrays}
               codesandboxid={"o4j24j2zmq"}
+              ariaLabel=`CodeSandbox hosted environment for the Array Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Arrays"
               api="https://www.framer.com/api/examples/#arrays"
             >
@@ -118,6 +125,7 @@ export default function Index(props) {
               title="Gestures"
               image={AnimateGestures}
               codesandboxid={"jlq97yryk9"}
+              ariaLabel=`CodeSandbox hosted environment for the Gestures Animation API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Gestures"
               api="https://www.framer.com/api/examples/#gestures"
             >
@@ -128,6 +136,7 @@ export default function Index(props) {
               title="On Hover"
               image={OnHover}
               codesandboxid={"8zoqqj2x2j"}
+              ariaLabel=`CodeSandbox hosted environment for the On Hover API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Hover"
               api="https://www.framer.com/api/examples/#on-hover"
             >
@@ -138,6 +147,7 @@ export default function Index(props) {
               title="Dragging/Constraints"
               image={DraggingConstraints}
               codesandboxid={"53mv19r5r4"}
+              ariaLabel=`CodeSandbox hosted environment for the Dragging API with constraints implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Constraints"
               api="https://www.framer.com/api/examples/#constraints"
             >
@@ -147,6 +157,7 @@ export default function Index(props) {
               title="Scrolling"
               image={Scrolling}
               codesandboxid={"zqk53xj9k3"}
+              ariaLabel=`CodeSandbox hosted environment for the Scrolling API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Scrolling"
               api="https://www.framer.com/api/examples/#scrolling"
             >
@@ -157,6 +168,7 @@ export default function Index(props) {
               title="Paging"
               image={Paging}
               codesandboxid={"88j3049zr9"}
+              ariaLabel=`CodeSandbox hosted environment for the Paging API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Paging"
               api="https://www.framer.com/api/examples/#paging"
             >
@@ -167,6 +179,7 @@ export default function Index(props) {
               title="Transforms"
               image={Transforms}
               codesandboxid={"l0061n7v7"}
+              ariaLabel=`CodeSandbox hosted environment for the Transforms API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Transforms"
               api="https://www.framer.com/api/examples/#transforms"
             >
@@ -177,6 +190,7 @@ export default function Index(props) {
               title="Variants"
               image={Variants}
               codesandboxid={"98vm5qo84"}
+              ariaLabel=`CodeSandbox hosted environment for the Variants API implemented in Next.js`
               href="https://codesandbox.io/s/github/nataliemarleny/framernext-examples/tree/master/API-Examples-Variants"
               api="https://www.framer.com/api/examples/#variants"
             >
@@ -200,6 +214,7 @@ A.defaultProps = {
 const Promo = ({
   title,
   codesandboxid,
+  ariaLabel,
   href,
   api,
   image: Image = "div",
@@ -212,7 +227,7 @@ const Promo = ({
     width={[1, 1, 1 / 2, 1 / 3]}
     {...rest}
   >
-    <A href={href} display="block" mb={1}>
+    <A href={href} aria-label={ariaLabel} display="block" mb={1}>
       <BorderBox
         as={Image}
         bg="black"
