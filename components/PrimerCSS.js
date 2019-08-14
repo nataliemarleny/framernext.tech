@@ -1,10 +1,14 @@
-import React from 'react'
-import {Box, Heading, Text, Flex, StyledOcticon} from '@primer/components'
-import {Package} from '@primer/octicons-react'
-import IndexGrid from './IndexGrid'
-import ButtonFill from './ButtonFill'
-import ButtonOutline from './ButtonOutline'
-import {ReactComponent as CssImage} from '../svg/Css.svg'
+// credit: https://primer.style
+// Authored by: Github's Design Systems Team 2019
+// Avaliable for use under the MIT Licence
+
+import React from "react";
+import { Box, Heading, Text, Flex, StyledOcticon } from "@primer/components";
+import { Package } from "@primer/octicons-react";
+import IndexGrid from "./IndexGrid";
+import ButtonFill from "./ButtonFill";
+import ButtonOutline from "./ButtonOutline";
+import { ReactComponent as CssImage } from "../svg/Css.svg";
 
 export default function PrimerCSS() {
   return (
@@ -16,11 +20,18 @@ export default function PrimerCSS() {
           </Box>
         </IndexGrid.Item>
         <IndexGrid.Item my={[4, 3, 0]}>
-          <Heading lineHeight="1.25" color="blue.4" mb={3} fontSize={5} fontWeight="bold">
+          <Heading
+            lineHeight="1.25"
+            color="blue.4"
+            mb={3}
+            fontSize={5}
+            fontWeight="bold"
+          >
             Highly reusable, flexible styles
           </Heading>
           <Text as="p" color="blue.2" mb={5} fontSize={3}>
-            Styles can be mixed and matched to achieve many different layouts, independent of their location.
+            Styles can be mixed and matched to achieve many different layouts,
+            independent of their location.
           </Text>
           <ButtonFill my={[2, 0]} mr={2} href="https://primer.style/css/">
             Documentation
@@ -44,58 +55,90 @@ export default function PrimerCSS() {
         <Flex mx={-5} flexWrap="wrap" alignItems="start">
           <Flex as={Box} width={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 0]}>
             <Flex.Item color="blue.3" mr={3}>
-              <StyledOcticon icon={Package} height={40} verticalAlign="middle" />
+              <StyledOcticon
+                icon={Package}
+                height={40}
+                verticalAlign="middle"
+              />
             </Flex.Item>
             <Flex.Item>
               <Text as="p" fontSize={2} color="blue.3" mt={1} fontFamily="mono">
                 primer
               </Text>
               <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                This package includes all 30 Primer modules from the core, product, and marketing packages
+                This package includes all 30 Primer modules from the core,
+                product, and marketing packages
               </Text>
             </Flex.Item>
           </Flex>
           <Flex as={Box} width={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 0]}>
             <Flex.Item color="blue.3" mr={3}>
-              <StyledOcticon icon={Package} height={40} verticalAlign="middle" />
+              <StyledOcticon
+                icon={Package}
+                height={40}
+                verticalAlign="middle"
+              />
             </Flex.Item>
             <Flex.Item>
               <Text as="p" fontSize={2} color="blue.3" mt={1} fontFamily="mono">
                 primer-core
               </Text>
               <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                The core package contains modules that are shared between GitHub product and marketing websites
+                The core package contains modules that are shared between GitHub
+                product and marketing websites
               </Text>
             </Flex.Item>
           </Flex>
-          <Flex as={Box} width={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 0]} align="top">
+          <Flex
+            as={Box}
+            width={[1, 6 / 12, 6 / 12]}
+            px={5}
+            mb={[3, 4, 4, 0]}
+            align="top"
+          >
             <Flex.Item color="blue.3" mr={3}>
-              <StyledOcticon icon={Package} height={40} verticalAlign="middle" />
+              <StyledOcticon
+                icon={Package}
+                height={40}
+                verticalAlign="middle"
+              />
             </Flex.Item>
             <Flex.Item>
               <Text as="p" fontSize={2} color="blue.3" mt={1} fontFamily="mono">
                 primer-product
               </Text>
               <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                The product package contains modules that are used on GitHub product websites
+                The product package contains modules that are used on GitHub
+                product websites
               </Text>
             </Flex.Item>
           </Flex>
-          <Flex as={Box} width={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 0]} align="top">
+          <Flex
+            as={Box}
+            width={[1, 6 / 12, 6 / 12]}
+            px={5}
+            mb={[3, 4, 4, 0]}
+            align="top"
+          >
             <Flex.Item color="blue.3" mr={3}>
-              <StyledOcticon icon={Package} height={40} verticalAlign="middle" />
+              <StyledOcticon
+                icon={Package}
+                height={40}
+                verticalAlign="middle"
+              />
             </Flex.Item>
             <Flex.Item>
               <Text as="p" fontSize={2} color="blue.3" mt={1} fontFamily="mono">
                 primer-marketing
               </Text>
               <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                The marketing package contains modules that are used on GitHub marketing websites
+                The marketing package contains modules that are used on GitHub
+                marketing websites
               </Text>
             </Flex.Item>
           </Flex>
         </Flex>
       </Box>
     </Box>
-  )
+  );
 }
