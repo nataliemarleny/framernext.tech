@@ -11,12 +11,12 @@
   </p>
 
 <p>
-This Next.js static site is a technical showcase of the Framer API Examples implemented within a production React Application environment. Each thumbnail links to a CodeSandbox which hosts the <a href="https://www.framer.com/api/examples">Framer API example</a> built within <a href="https://nextjs.org">Next.js</a>.
+This Next.js static site is a technical showcase of the Framer X API Examples implemented within a production React Application environment. Each thumbnail links to a CodeSandbox which hosts the <a href="https://www.framer.com/api/examples">Framer API example</a> built within <a href="https://nextjs.org">Next.js</a>.
 </p>
 
-<p>Each Framer API example links to the documentation and original Framer Codesandbox to compare and contrast.</p>
+<p>Each Framer X API example links to the documentation and original Framer Codesandbox to compare and contrast.</p>
 
-<p>🖤 This site is deployed using ZEIT Now 2.0 <a href="">0config deployments</a> 🖤</p>
+<p>🖤 This site is deployed using ZEIT Now 2.0 <a href="https://zeit.co/blog/zero-config">0config deployments</a> 🖤</p>
 
 <p>💙 For styling and components, this site is a fork of <a href="https://primer.style">primer.style</a>, which has been created and maintained by GitHub’s <a href="https://primer.style/team">Design Systems team</a> 💙</p>
 
@@ -26,7 +26,7 @@ This Next.js static site is a technical showcase of the Framer API Examples impl
 
 ## Disclaimers!
 
-- Putting the Framer API into a production React application is definitely more of a could than a should! This is mainly a technical exercise!, but also a celebration of the technologies and communities which have enabled me to have a career flourishing as a Software Engineer 👩🏻‍💻
+- Putting the Framer X API into a production React application is definitely more of a could than a should! This is mainly a technical exercise!, but also a celebration of the technologies and communities which have enabled me to have a career flourishing as a Software Engineer 👩🏻‍💻
 
 - To make the examples work, it was necessary to rewrite some of Framer's the custom React Hooks (with particular reference to useCycle).
 
@@ -48,11 +48,12 @@ This Next.js static site is a technical showcase of the Framer API Examples impl
 
 #### Also with thanks and gratitude to:
 
-- [@zeit](https://github.com/zeit)
-- [@arunda](https://github.com/arunda)
+- [@ZEIT](https://github.com/zeit)
+- [@arunoda](https://github.com/arunoda)
 - [@leo](https://github.com/leo)
-- [@nextjs](https://github.com/nextjs)
+- [@nextjs](https://github.com/zeit/next.js)
 - [@framer](https://github.com/framer)
-- [@marciano](https://github.com/marciano)
+- [@marciano](http://marcia.no)
+- [@anushreesubramani](https://github.com/anushreesubramani)
 - [@codesandbox](https://github.com/codesandbox)
 - [@primer](https://github.com/primer)
