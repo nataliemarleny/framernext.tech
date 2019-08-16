@@ -42,7 +42,8 @@ export default function Index(props) {
           <Text as="p" textAlign="center" mb={8}>
             A technical showcase of the Framer API Examples implemented within a
             production React application environment. Each thumbnail links to a
-            CodeSandbox which hosts the Framer API example hosted in Next.js.
+            CodeSandbox environment with the Framer X API example hosted within
+            Next.js.
           </Text>
           <Flex flexWrap="wrap" mr={[0, 0, -gutter]}>
             <Promo
