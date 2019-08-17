@@ -5,8 +5,8 @@ module.exports = withSass(
   withReactSvg({
     include: path.join(__dirname, "svg"),
     experimental: {
-      modern: true,
-      granularChunks: true
+      // modern: true,
+      // granularChunks: true
     }
   })
 );
