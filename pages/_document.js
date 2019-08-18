@@ -29,7 +29,26 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head />{" "}
+        <Head>
+          <title>Framer Next</title>
+          <meta name="keywords" content="Framer Next" />
+          <meta property="og:article:author" content="Natalie Marleny" />
+          <meta property="og:title" content="Framer Next" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://framernext.tech" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <meta
+            property="og:description"
+            content="A technical showcase of the Framer API implemented with Next.js"
+          />
+          <meta property="og:image" content="../FramerNext.png" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:site" content="@nataliemarleny" />
+          <link rel="icon" href="../icons/favicon.ico" />
+        </Head>
         <body>
           <Main />
           <NextScript />
