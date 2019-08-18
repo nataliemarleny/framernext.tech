@@ -15,7 +15,7 @@ export default function PrimerCSS() {
     <Box>
       <IndexGrid my={[0, 3, 8]}>
         <IndexGrid.Item>
-          <Box p={[3, 3, 5, 8]} mb={[5, 5, 5, 0]} bg="blue.8" borderRadius={6}>
+          <Box p={[3, 3, 5, 8]} mb={[5, 5, 5, 0]} bg="blue.8">
             <CssImage width="100%" height={null} />
           </Box>
         </IndexGrid.Item>

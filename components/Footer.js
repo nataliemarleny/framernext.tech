@@ -193,7 +193,6 @@ export default function OpenSource() {
         <BorderBox
           mt={12}
           py={5}
-          borderradius={0}
           border={0}
           borderTop={2}
           borderStyle="solid"

@@ -218,7 +218,6 @@ const Promo = ({
         as={Image}
         bg="black"
         border={0}
-        borderRadius={2}
         width="100%"
         height={null}
         minHeight={220}
