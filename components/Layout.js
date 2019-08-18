@@ -31,14 +31,12 @@ export default function Layout(props) {
           property="og:description"
           content="A technical showcase of the Framer API implemented with Next.js"
         />
-        <meta
-          property="og:image"
-          content="https://user-images.githubusercontent.com/10384315/53922681-2f6d3100-402a-11e9-9719-5d1811c8110a.png"
-        />
+        <meta property="og:image" content="../FramerNext.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@nataliemarleny" />
+        <link rel="icon" href="../icons/favicon.ico" />
       </Head>
       <Box bg="black" color="blue.2" {...rest}>
         {children}
