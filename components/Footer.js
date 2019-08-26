@@ -197,6 +197,7 @@ export default function OpenSource() {
           borderTop={2}
           borderStyle="solid"
           borderColor="black"
+          borderRadius={0}
         >
           <Text pr={1} as="span">
             This site is a fork of
